@@ -157,7 +157,7 @@ showEmployees = () => {
                       LEFT JOIN department ON role.department_id = department.id
                       LEFT JOIN employee manager ON employee.manager_id = manager.id`;
 
-  connection.promise().query(sql, (err, rows) => {
+  connection.query(sql, (err, rows) => {
     if (err) throw err; 
     console.table(rows);
     promptUser();
