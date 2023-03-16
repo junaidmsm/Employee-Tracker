@@ -21,8 +21,8 @@ This application requires Node.js, Inquirer, console.table and mysql2. To start 
 
   ## Screenshot
 
-[Screenshot]()
-<image src = "Screenshot.png">
+[Screenshot](Screenshot(84).png)
+<image src = "Screenshot(84).png">
 
 
 
